@@ -1,0 +1,115 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* layout */
+.wrapper {
+  width: 700px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* design */
+body {
+  background-image: url(../images/background02.png);
+  background-attachment: fixed;
+}
+
+.header {
+  background-image: url(../images/cover03.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.header-image {
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50% / 30%;
+}
+
+.header-title {
+  margin: 10px 0;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.header-description {
+  display: inline-block;
+  border-top: 3px solid;
+  line-height: 2;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.main {
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  background-image: url(../images/icon-information.png);
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+}
+
+.section.skills {
+  background-image: url(../images/icon-skills.png);
+}
+
+.section-title {
+  color: lightslategray;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.section-list {
+  color: #999;
+}
+
+.section-list li {
+  padding-left: 10px;
+  border-left: 5px solid #ddd;
+}
+
+.section-list li:hover {
+  color: lightslategray;
+  border-color: lightslategray;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 10px;
+  color: #ddd;
+  letter-spacing: 5px;
+  text-align: center;
+}
