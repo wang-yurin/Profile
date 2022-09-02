@@ -1,0 +1,139 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* layout */
+.wrapper {
+  width: 700px;
+  margin: 50px auto 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* design */
+body {
+  background-image: url(./cover02.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+
+.header {
+  background-image: url(./cover01.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.header-image {
+  width: 200px;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+}
+
+.header-title {
+  margin: 10px 0;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.header-description {
+  display: inline-block;
+  border-top: 3px solid;
+  line-height: 2;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.contents {
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  background-image: url(../images/icon-information.png);
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+}
+
+.section.skills {
+  background-image: url(../images/icon-skills.png);
+}
+
+.section-title {
+  color: lightslategray;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.section-list {
+  color: #999;
+}
+
+.section-list li {
+  padding-left: 10px;
+  border-left: 5px solid #ddd;
+}
+
+.section-list li:hover {
+  color: lightslategray;
+  border-color: lightslategray;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 15px;
+  color: #ddd;
+  text-align: center;
+}
+
+.link-icon {
+  display: inline-block;
+}
+
+.link-icon a {
+  display: inline-block;
+  padding: 7px 13px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+}
+
+.link-icon a:hover {
+  color: lightslategray;
+  border-color: lightslategray;
+  transition: 0.5s;
+}
